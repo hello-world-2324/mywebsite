@@ -1,10 +1,10 @@
 const watches = [
-  { id: 1, name: "Omega Seamaster", price: "₹2,45,000", image: "images/watch1.jpg" },
-  { id: 2, name: "Rolex Submariner", price: "₹8,75,000", image: "images/watch2.jpg" },
-  { id: 3, name: "Tag Heuer Carrera", price: "₹3,20,000", image: "images/watch3.jpg" },
-  { id: 4, name: "Breitling Navitimer", price: "₹4,50,000", image: "images/watch4.jpg" },
-  { id: 5, name: "Hublot Big Bang", price: "₹7,10,000", image: "images/watch5.jpg" },
-  { id: 6, name: "Audemars Piguet Royal Oak", price: "₹25,00,000", image: "images/watch6.jpg" }
+  { id: 1, name: "Omega Seamaster", price: "₹2,45,000", image: "watch1.jpg" },
+  { id: 2, name: "Rolex Submariner", price: "₹8,75,000", image: "watch2.jpg" },
+  { id: 3, name: "Tag Heuer Carrera", price: "₹3,20,000", image: "watch3.jpg" },
+  { id: 4, name: "Breitling Navitimer", price: "₹4,50,000", image: "watch4.jpg" },
+  { id: 5, name: "Hublot Big Bang", price: "₹7,10,000", image: "watch5.jpg" },
+  { id: 6, name: "Audemars Piguet Royal Oak", price: "₹25,00,000", image: "watch6.jpg" }
 ];
 
 const productGrid = document.getElementById("productGrid");
