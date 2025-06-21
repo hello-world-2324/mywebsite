@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffe3e3, #e3f2fd);
+  color: #111;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  padding: 1rem;
+  background: linear-gradient(to right, #ff8a65, #ffcc80);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+header h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-size: 1.8rem;
+  font-family: 'Georgia', serif;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+h1 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.search {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.search input {
+  padding: 0.6rem;
+  width: 50%;
+  max-width: 400px;
+  border: 2px solid #ffab91;
+  border-radius: 10px;
+  outline: none;
+}
+
+.carousel {
+  background: #fff3e0;
+  padding: 1rem;
+  text-align: center;
+  margin: 1rem;
+  border-radius: 10px;
+  color: #e65100;
+  font-weight: bold;
+}
+
+.products-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 6rem;
+  padding: 1rem;
+  align-items: start;
+}
+
+.card {
+  width: 250px;
+  border: 2px solid #ffccbc;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 2rem;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(255, 138, 101, 0.2);
+  transition: transform 0.2s ease;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.card h3 {
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  border-radius: 10px;
+}
+
+
+.card button {
+  background: #ff7043;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.cart {
+  background: #fce4ec;
+  padding: 1rem;
+  text-align: center;
+  color: #c2185b;
+}
+
+.contact {
+  background: #f3e5f5;
+  padding: 2rem;
+  text-align: center;
+  color: #6a1b9a;
+}
+
+.creator {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #9c27b0;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ce93d8;
+  color: #4a148c;
+}
+
+.dark {
+  background: #1e1e1e;
+  color: #f0f0f0;
+}
